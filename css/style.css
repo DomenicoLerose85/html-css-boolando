@@ -1,8 +1,10 @@
+/* reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin:0;
 }
+/* main */
 main {
     margin: 0 auto;
     width: 80%;
@@ -37,6 +39,7 @@ img {
     cursor: pointer;
     z-index: 5;
 }
+/* hover */
 .hover_image {
     display: none;
 }
@@ -67,7 +70,7 @@ img {
 .price_tag_deleted{
     text-decoration: line-through;
 }
-
+/* tag */
 .sostenibilità{
     color: white;
     background-color: green;
